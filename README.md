@@ -28,13 +28,13 @@
 
 <h3 align="left">Support:</h3>
 <p align="center">
-  <a href="https://www.buymeacoffee.com/TusharPDev"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy me a coffee"/></a>
+  <a href="https://www.buymeacoffee.com/Addy2111"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy me a coffee"/></a>
 </p>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=tusharpdev&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Addy2111&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tusharpdev&show_icons=true&locale=en" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Addy2111&show_icons=true&locale=en" alt="GitHub Stats" />
 </div>
