@@ -1,27 +1,40 @@
-<h1 align="center">Hi 👋, I'm Adesh</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<div align="center">
+  <img src="https://github.com/TusharPDev/PP-40TusharPatil/blob/663e1e86360b1497b8acb000e2d00ab66a525e6c/Navy%20%26%20White%20Gradient%20Personal%20LinkedIn%20Banner%20(4).png" alt="Banner" width="100%" height="auto"/>
+</div>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=addy2111&label=Profile%20views&color=0e75b6&style=flat" alt="addy2111" /> </p>
+<h1 align="center" style="font-family: 'Courier New', monospace;">Hi 👋, I'm Adesh</h1>
+<h3 align="center" style="font-family: 'Courier New', monospace;">Beyond Syntax: Mastering the Art and Science of Software Development</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=addy2111" alt="addy2111" /></a> </p>
+<div align="center">
+  <img align="right" alt="Coding" width="400" src="https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif">
+</div>
 
-- 🔭 I’m currently working on **E-commerce website**
+- 🔭 I’m currently working on a **Web Based ERP System Project**
 
-- 👯 I’m looking to collaborate on **frontend development**
+- 💬 Ask me about **ReactJS, Node.js, Oracle PL/SQL, Redis, HTML, CSS, JavaScript, jQuery**
 
-- 🤝 I’m looking for help with **Javascript**
+- 📫 How to reach me: [adeshpatilpvt11@gmail.com](mailto:adeshpatilpvt11@gmail.com)
 
-- 📫 How to reach me **adeshpatilpvt11@gmail.com**
-
-- ⚡ Fun fact **I think i am a code-bug!**
+- ⚡ Fun fact: **Why do programmers prefer dark mode? Less light, fewer bugs!**
 
 <h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+
+
 
 <h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
+<p align="center">
+  <!-- Add your icons and links here with the same styling as above -->
+</p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=addy2111&show_icons=true&locale=en&layout=compact" alt="addy2111" /></p>
+<h3 align="left">Support:</h3>
+<p align="center">
+  <a href="https://www.buymeacoffee.com/TusharPDev"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy me a coffee"/></a>
+</p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=addy2111&" alt="addy2111" /></p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=tusharpdev&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=tusharpdev&show_icons=true&locale=en" alt="GitHub Stats" />
+</div>
