@@ -7,7 +7,7 @@
   </head>
   <body>
     <script>
-      function greet() {
+      /* function greet() {
         console.log('Hello');
       }
       greet();
@@ -39,7 +39,23 @@
       function convertToCelsius(fahrenheit) {
         console.log(((fahrenheit - 32) * 5) / 9);
       }
-      console.log(convertToCelsius(19));
+      console.log(convertToCelsius(19)); */
+
+      function convertTemprature(degrees, unit) {
+        if (unit === 'C') {
+          let result = degrees * (9 / 5) + 32;
+          return result + 'F';
+        } else if (unit === 'F') {
+          let result = (degrees - 32) * (5 / 9);
+          return result + 'C';
+        } else {
+          return 'Invalid Units';
+        }
+      }
+
+      console.log(convertTemprature(25, 'C'));
+      console.log(convertTemprature(14, 'F'));
+      console.log(convertTemprature(43, 'A'));
     </script>
   </body>
 </html>
