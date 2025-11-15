@@ -3,11 +3,142 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Simple Calculator</title>
+    <style>
+      body {
+        background: #121212;
+        color: white;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .calculator {
+        background: #1e1e1e;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        width: 300px;
+      }
+
+      #display {
+        background: #000;
+        color: #0f0;
+        font-size: 2em;
+        text-align: right;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        overflow-x: auto;
+      }
+
+      .buttons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+      }
+
+      button {
+        padding: 20px;
+        font-size: 1.2em;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        background: #333;
+        color: white;
+        transition: background 0.2s;
+      }
+
+      button:hover {
+        background: #444;
+      }
+
+      .operator {
+        background: #ff9500;
+      }
+
+      .operator:hover {
+        background: #ffaa33;
+      }
+
+      .equal {
+        background: #00c853;
+        grid-column: span 2;
+      }
+
+      .equal:hover {
+        background: #00e676;
+      }
+
+      .clear {
+        background: #ff3b30;
+      }
+
+      .clear:hover {
+        background: #ff5e57;
+      }
+    </style>
   </head>
   <body>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, velit illo,
-    commodi ea repellendus nostrum eligendi praesentium asperiores soluta
-    officiis nobis?
+    <div class="calculator">
+      <div id="display">0</div>
+
+      <div class="buttons">
+        <button class="clear" onclick="clearDisplay()">C</button>
+        <button onclick="deleteLast()">DEL</button>
+        <button class="operator" onclick="updateCalculation('%')">%</button>
+        <button class="operator" onclick="updateCalculation('/')">÷</button>
+
+        <button onclick="updateCalculation('7')">7</button>
+        <button onclick="updateCalculation('8')">8</button>
+        <button onclick="updateCalculation('9')">9</button>
+        <button class="operator" onclick="updateCalculation('*')">×</button>
+
+        <button onclick="updateCalculation('4')">4</button>
+        <button onclick="updateCalculation('5')">5</button>
+        <button onclick="updateCalculation('6')">6</button>
+        <button class="operator" onclick="updateCalculation('-')">−</button>
+
+        <button onclick="updateCalculation('1')">1</button>
+        <button onclick="updateCalculation('2')">2</button>
+        <button onclick="updateCalculation('3')">3</button>
+        <button class="operator" onclick="updateCalculation('+')">+</button>
+
+        <button onclick="updateCalculation('0')">0</button>
+        <button onclick="updateCalculation('.')">.</button>
+        <button class="equal" onclick="calculateResult()">=</button>
+      </div>
+    </div>
+
+    <script>
+      let calculation = '';
+
+      function updateCalculation(value) {
+        calculation += value;
+        document.getElementById('display').textContent = calculation;
+      }
+
+      function calculateResult() {
+        try {
+          calculation = eval(calculation.replace('÷', '/').replace('×', '*'));
+          document.getElementById('display').textContent = calculation;
+        } catch (error) {
+          document.getElementById('display').textContent = 'Error';
+          calculation = '';
+        }
+      }
+
+      function clearDisplay() {
+        calculation = '';
+        document.getElementById('display').textContent = '0';
+      }
+
+      function deleteLast() {
+        calculation = calculation.slice(0, -1);
+        document.getElementById('display').textContent = calculation || '0';
+      }
+    </script>
   </body>
 </html>

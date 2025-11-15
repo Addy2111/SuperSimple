@@ -41,7 +41,7 @@
       }
       console.log(convertToCelsius(19)); */
 
-      function convertTemprature(degrees, unit) {
+      /*function convertTemprature(degrees, unit) {
         if (unit === 'C') {
           let result = degrees * (9 / 5) + 32;
           return result + 'F';
@@ -55,7 +55,57 @@
 
       console.log(convertTemprature(25, 'C'));
       console.log(convertTemprature(14, 'F'));
-      console.log(convertTemprature(43, 'A'));
+      console.log(convertTemprature(43, 'A')); */
+
+      function convertLength(length, from, to) {
+        const km_per_mile = 1.6;
+        if (from === to) {
+          return length + ' ' + to;
+        }
+
+        if (from === 'miles' && to === 'km') {
+          return length * km_per_mile + 'km';
+        }
+
+        if (from === 'km' && to === 'miles') {
+          return length / km_per_mile + 'miles';
+        }
+
+        return 'Invalid units';
+      }
+      console.log(convertLength(50, 'miles', 'km')); //
+      console.log(convertLength(32, 'km', 'miles')); //
+      console.log(convertLength(50, 'km', 'km')); //
+
+      function convertLengthAndFeet(length, from, to) {
+        const km_per_mile = 1.6;
+
+        const ft_per_mile = 5280;
+        const ft_per_km = 3281;
+        if (from === to) {
+          return length + ' ' + to;
+        }
+
+        if (from === 'miles' && to === 'km') {
+          return length * km_per_mile + 'km';
+        }
+
+        if (from === 'km' && to === 'miles') {
+          return length / km_per_mile + 'miles';
+        }
+
+        if (from === 'miles' && to === 'ft') {
+          return length * ft_per_mile + 'ft';
+        }
+
+        if (from === 'km' && to === 'ft') {
+          return length * ft_per_km + 'ft';
+        }
+        return 'Invalid units';
+      }
+
+      console.log(convertLengthAndFeet(5, 'miles', 'ft')); //
+      console.log(convertLengthAndFeet(5, 'km', 'ft')); //
     </script>
   </body>
 </html>
