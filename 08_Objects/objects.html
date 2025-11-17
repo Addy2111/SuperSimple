@@ -7,12 +7,44 @@
   </head>
   <body>
     <script>
-      const products = {
+      /* const products = {
         name: 'Adesh Patil',
         coursePrice: 30,
       };
       console.log(products);
-      console.log(products.name);
+      console.log(products.name); */
+
+      /* const products2 = {
+        name: 'Elon Musk',
+        rating: {
+          stars: 4.7,
+          count: 997,
+        },
+        fun: function function1() {
+          console.log('Hello there Objects x Function');
+        },
+      };
+      console.log(products2.name);
+      console.log(products2[('name', 'rating')]);
+      products2.fun();
+      console.log(JSON.stringify(products2));
+
+      const jsonString = JSON.stringify(products2);
+
+      console.log(JSON.parse(jsonString));*/
+
+      const object1 = {
+        message: 'Hello World',
+      };
+
+      const object2 = object1;
+
+      const object3 = {
+        message: 'Hello World',
+      };
+
+      console.log(object1 === object2);
+      console.log(object1 === object3);
     </script>
   </body>
 </html>
