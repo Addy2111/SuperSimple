@@ -33,7 +33,7 @@
 
       console.log(JSON.parse(jsonString));*/
 
-      const object1 = {
+      /*const object1 = {
         message: 'Hello World',
       };
 
@@ -44,7 +44,22 @@
       };
 
       console.log(object1 === object2);
-      console.log(object1 === object3);
+      console.log(object1 === object3); */
+
+      const object4 = {
+        message: 'Hello Adesh?',
+      };
+      const { message } = object4;
+      console.log(message);
+
+      const object5 = {
+        message,
+        method: function function1() {
+          console.log('method!');
+        },
+      };
+      console.log(object5);
+      object5.method();
     </script>
   </body>
 </html>
